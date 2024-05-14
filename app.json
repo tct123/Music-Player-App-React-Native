@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "music",
-    "slug": "music",
+    "name": "Chetan`s Music Player",
+    "slug": "chetan-music-player",
+    "description":"This is My First App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/music-player.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
