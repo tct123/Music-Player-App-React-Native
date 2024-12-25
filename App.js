@@ -24,7 +24,7 @@ export default function App() {
       <NavigationContainer theme={MyTheme}>
         <AppNavigator />
       </NavigationContainer>
-      
+
     </AudioProvider>
   );
 }
