@@ -38,7 +38,7 @@ const OptionModal = ({
                 </TouchableWithoutFeedback>
               );
             })}
-             <TouchableWithoutFeedback onPress={onDeletePress}>
+            <TouchableWithoutFeedback onPress={onDeletePress}>
               <Text style={styles.option}>Delete</Text>
             </TouchableWithoutFeedback>
             {/*

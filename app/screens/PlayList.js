@@ -121,19 +121,19 @@ const PlayList = ({ navigation }) => {
     <ScrollView contentContainerStyle={styles.container}>
       {playList.length
         ? playList.map(item => (
-            <TouchableOpacity
-              key={item.id.toString()}
-              style={styles.playListBanner}
-              onPress={() => handleBannerPress(item)}
-            >
-              <Text>{item.title}</Text>
-              <Text style={styles.audioCount}>
-                {item.audios.length > 1
-                  ? `${item.audios.length} Songs`
-                  : `${item.audios.length} Song`}
-              </Text>
-            </TouchableOpacity>
-          ))
+          <TouchableOpacity
+            key={item.id.toString()}
+            style={styles.playListBanner}
+            onPress={() => handleBannerPress(item)}
+          >
+            <Text>{item.title}</Text>
+            <Text style={styles.audioCount}>
+              {item.audios.length > 1
+                ? `${item.audios.length} Songs`
+                : `${item.audios.length} Song`}
+            </Text>
+          </TouchableOpacity>
+        ))
         : null}
 
       <TouchableOpacity

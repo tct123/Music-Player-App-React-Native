@@ -166,7 +166,7 @@ const Player = () => {
 
   return (
     <Screen>
-    <Text style={styles.myName}>Created by Chetan</Text>
+      <Text style={styles.myName}>Created by Chetan</Text>
       <View style={styles.container}>
         <View style={styles.audioCountContainer}>
           <View style={{ flexDirection: 'row' }}>
@@ -177,9 +177,8 @@ const Player = () => {
               </>
             )}
           </View>
-          <Text style={styles.audioCount}>{`${
-            context.currentAudioIndex + 1
-          } / ${context.totalAudioCount}`}</Text>
+          <Text style={styles.audioCount}>{`${context.currentAudioIndex + 1
+            } / ${context.totalAudioCount}`}</Text>
         </View>
         <View style={styles.midBannerContainer}>
           <MaterialCommunityIcons
@@ -276,9 +275,9 @@ const styles = StyleSheet.create({
     color: color.FONT,
     padding: 15,
   },
-  myName:{
-    fontSize:20,
-    textAlign:'center'
+  myName: {
+    fontSize: 20,
+    textAlign: 'center'
   }
 });
 
